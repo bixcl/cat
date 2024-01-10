@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <script>
+        function login() {
+            var c;
+            c = document.qq.NM.value;
+            document.write("Welcome Back " + c);
+
+        }
+    </script>
+    <style>
+        table td {
+            text-align: center;
+            width: 200px;
+            color: #047A4E;
+        }
+        
+        .gg {
+            height: 10vh;
+        }
+        
+        .cc {
+            width: 100%;
+            height: 30vh;
+        }
+        
+        .bb {
+            width: 70%;
+            height: 30vh;
+            padding: 0 5%;
+        }
+        
+        .ImgLogo {
+            width: 120px;
+        }
+        
+        a {
+            color: #000000;
+            font-size: 20px;
+        }
+        
+        a:link {
+            color: #047A4E;
+        }
+        
+        a:hover {
+            color: #047A4E;
+        }
+        
+        a:visited {
+            color: #003b25;
+        }
+        
+        a:active {
+            color: red;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body onload=" alert( 'Please enter the details'); ">
+
+    <center>
+        <header>
+
+            <div class="bb">
+                <table>
+                    <tr>
+                        <td><a href="HOME.html">HOME</a></td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <td><a href="Pharaonic cat.html">Pharaonic cat</a></td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <td><a href="Persian cat.html">Persian cat</a></td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <td><a href="LogIn.html" ; style="border: solid 10px #047A4E;background-color: #047A4E;color: #c1f8e4 ;border-radius: 10px;">Log in</a></td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+    </center>
+
+
+    <center>
+        <form name="qq">
+            Full Name:<input style="background-color: #047A4E; color: #ffffff;" type="text " name="NM"> <br><br> E-mail :<input style="background-color: #047A4E; color: #ffffff;" type="email " name="email "> <br><br> PassWord:
+            <input style="background-color: #047A4E; color: #ffffff;" type="password " name="pass "> <br><br>
+            <input style="background-color: #047A4E; color: #ffffff;" type="submit" value="LogIn" onclick="login();"> <br><br>
+        </form>
+    </center>
+
+
+
+    <center>
+        <div class="gg">
+            <a href="HOME.html"><img src="Asset/TheLogo3.png" class="ImgLogo"></a>
+        </div>
+    </center>
+
+</body>
+
+</html>
